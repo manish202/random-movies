@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+header{
+    padding: 20px;
+}
+select{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+input[type="text"],input[type="number"]{
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid grey;
+    letter-spacing: 1px;
+}
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 20px;
+    width: 200px;
+}
+.card img{
+    width: 200px;
+    border-radius: 4px;
+    transition: all 0.4s;
+    filter: drop-shadow(0px 0px 0px black);
+}
+.card:hover img{
+    filter: drop-shadow(2px 4px 6px black);
+}
+.card h3{
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+}
+.card span{
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
+table img{
+    width: 200px;
+    border-radius: 4px;
+}
+table{
+    text-align: center;
+    margin: 20px auto;
+    background-color: #8e44ad;
+    color: #fff;
+    padding: 20px;
+    border-collapse: collapse;
+}
+table th,table td{
+    border: 2px solid #fff;
+    padding: 10px;
+}
+.popup{
+    background-color: #9b59b6;
+    padding: 10px 0px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+table a,table button{
+    background: #fff;
+    padding: 7px;
+    margin: 0px 10px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    color: blue;
+    font-size: 15px;
+    cursor: pointer;
+}
+@media (max-width:430px){
+    .container{
+        width: 100%;
+    }
+}
